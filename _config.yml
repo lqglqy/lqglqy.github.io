@@ -9,8 +9,8 @@
 title: The Lqgy
 email: lqglqy@126.com
 description: Just a C programer!
-baseurl: "/jekyll-wing-template" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://lqglqy.github.io/" # the base hostname & protocol for your site
 twitter_username: lqglqy
 github_username: lqglqy 
 
