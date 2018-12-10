@@ -61,5 +61,5 @@ http {
 
 以下是现有的防护配置页面，仅供参考：
 
-<img src="/assets/waf_cc_config.png" width=521 height=672 />
 ![cc](/assets/waf_cc_config.png){:height="672px" width="521px"}
+
