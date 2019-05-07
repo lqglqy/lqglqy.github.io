@@ -7,7 +7,7 @@ categories: Attack&Detect
 
 # 什么是sql注入攻击
 
-我理解的sql注入攻击，是通过精心构造的输入内容，利用逻辑层与数据层交互间的逻辑
+    我理解的sql注入攻击，是通过精心构造的输入内容，利用逻辑层与数据层交互间的逻辑
 缺陷，执行命令以实现数据获取、篡改、系统攻击等。
 
 
@@ -20,7 +20,7 @@ categories: Attack&Detect
 
 # 语法分析
 
-重点说明语法分析，是由于特征检测和机器学习都有局限性，主要表现在特征覆盖不全，
+    重点说明语法分析，是由于特征检测和机器学习都有局限性，主要表现在特征覆盖不全，
 和机器学习的流量变化不规律，无法做到准确率与召回率达到90%以上的水平，因此，才
 引出最近流行的语法分析方式，该方式的起源是由libinjection在2012年的hackhat大会
 上提出的一套实现思路，以下分析一下libinjection与长亭的sqlchop的实现思路。
@@ -40,8 +40,8 @@ categories: Attack&Detect
 
 
 # 参考
-https://blog.chaitin.cn/sqlchop-the-sqli-detection-engine/
-https://www.freebuf.com/articles/web/170930.html
+* https://blog.chaitin.cn/sqlchop-the-sqli-detection-engine/
+* https://www.freebuf.com/articles/web/170930.html
 
 
 
