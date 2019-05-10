@@ -6,9 +6,7 @@ categories: match
 ---
 
 # 背景介绍
-	在检测引擎中常用到正则匹配，一般情况下使用pcre即可满足，但当规则量达到
-	千条级别时pcre性能明显下降，因此，可考虑用hyperscan替代pcre，下文主要
-	是通过测试验证替代带来的收益和一些小问题。
+    在检测引擎中常用到正则匹配，一般情况下使用pcre即可满足，但当规则量达到千条级别时pcre性能明显下降，因此，可考虑用hyperscan替代pcre，下文主要是通过测试验证替代带来的收益和一些小问题。
 
 # 测试结果及分析
 ![pcreVShs](/assets/pcre_vs_hyperscan.png){:height="672px" width="521px"}
