@@ -27,7 +27,9 @@ categories: match
     4.统计输出耗时的平均值；
 
 # 参考
-* https://blog.chaitin.cn/sqlchop-the-sqli-detection-engine/
+* https://github.com/intel/hyperscan
+* http://intel.github.io/hyperscan/dev-reference/copyright.html
+
 
 
 
