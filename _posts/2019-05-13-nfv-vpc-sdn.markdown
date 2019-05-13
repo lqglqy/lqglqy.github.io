@@ -17,3 +17,9 @@ categories: network
 
   Software Defined Network 软件定义网络，通过编程或脚本方式进行网络调整，提高网络部署与调整的灵活性，能够解决传统网络架构的难部署
 、难管理的问题。
+
+### 资料
+
+https://www.zhihu.com/question/20279620
+https://zhuanlan.zhihu.com/p/33658624
+https://developer.huawei.com/ict/forum/thread-10097.html
