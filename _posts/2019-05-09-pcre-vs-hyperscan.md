@@ -6,9 +6,7 @@ categories: match
 ---
 
 # 背景介绍
-	在检测引擎中常用到正则匹配，一般情况下使用pcre即可满足，但当规则量达到
-	千条级别时pcre性能明显下降，因此，可考虑用hyperscan替代pcre，下文主要
-	是通过测试验证替代带来的收益和一些小问题。
+    在检测引擎中常用到正则匹配，一般情况下使用pcre即可满足，但当规则量达到千条级别时pcre性能明显下降，因此，可考虑用hyperscan替代pcre，下文主要是通过测试验证替代带来的收益和一些小问题。
 
 # 测试结果及分析
 ![pcreVShs](/assets/pcre_vs_hyperscan.png){:height="672px" width="521px"}
@@ -19,7 +17,8 @@ categories: match
     hyperscan则不会；
     3.匹配最后一条规则时性能较不匹配要低；
     4.hyperscan占用的静态空间和动态空间都会大于pcre；
-
+    由于hyperscan是静态库同时又较大，所以编译出来的bin文件会比较大，在选型时可以考虑在规则量小时用pcre，当规则数量达到千条以上时再用hyperscan替换性价比较高。
+    
 # 测试方法说明
     1.规则数按10、100、1000分布；
     2.分别统计匹配耗时输出到文件；
@@ -27,7 +26,9 @@ categories: match
     4.统计输出耗时的平均值；
 
 # 参考
-* https://blog.chaitin.cn/sqlchop-the-sqli-detection-engine/
+* https://github.com/intel/hyperscan
+* http://intel.github.io/hyperscan/dev-reference/copyright.html
+
 
 
 
