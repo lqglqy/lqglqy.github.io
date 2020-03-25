@@ -140,7 +140,7 @@ categories: match
 	boolean_primary=predicate
 	boolean_factor=boolean_primary
 	boolean_term=boolean_factor
-	search_condition=boolean_term|(search_condition optional_space OR optional_space boolean_term)
+	search_condition=boolean_term|(!search_condition optional_space OR optional_space boolean_term)
 	where_clause=WHERE space search_condition
 	table_expression=where_clause
 	 
@@ -153,7 +153,7 @@ categories: match
 
 yanshi -S select.ys -o a.cc --substring-grammar
 
-g++ a.cc -o a -O2
+g++ a.cc -o a -O2 -std=c++11
 
 
 ![yanshi](/assets/yanshi.png)
