@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to detect sqli substring with YanShi"
+title:  "How to detect sqli substring base on YanShi"
 date:   2020-03-25 10:14:00 +0800
 categories: match
 ---
