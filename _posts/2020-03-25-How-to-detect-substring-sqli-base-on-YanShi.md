@@ -151,7 +151,7 @@ categories: match
 
 编译
 
-yanshi -S select.ys -o a.cc --substring-grammar
+yanshi --substring-grammar -S select.ys -o a.cc 
 
 g++ a.cc -o a -O2 -std=c++11
 
