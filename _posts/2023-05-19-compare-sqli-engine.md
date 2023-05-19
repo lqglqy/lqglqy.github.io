@@ -1,27 +1,19 @@
 # yanshi VS libinjection VS libdetection
 
-<table>
-  <tbody>
-    <tr>
-      <td>type</td>
-      <td>yanshi</td>
-      <td>libinjection</td>
-      <td>libdetection</td>
-    </tr>
-    <tr>
-      <td>sqli</td>
-      <td><br>249727</td>
-      <td><br>84530</td>
-      <td><br>242130</td>
-    </tr>
-  </tbody>
-  <colgroup>
-    <col>
-    <col>
-    <col>
-    <col>
-  </colgroup>
-</table>
+<div class="divTable">
+    <div class="row">
+        <div class="cell">Type</div>
+        <div class="cell">Yanshi</div>
+        <div class="cell">Libinjection</div>
+        <div class="cell">Libdetection</div>
+    </div>
+    <div class="row">
+        <div class="cell">Sqli</div>
+        <div class="cell">249727</div>
+        <div class="cell">242130</div>
+        <div class="cell">84530</div>
+    </div>
+</div>
 
 # Yanshi sqli speed test code
 ```
