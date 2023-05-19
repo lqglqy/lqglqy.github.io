@@ -1,8 +1,6 @@
 # yanshi VS libinjection VS libdetection
-|      | yanshi  | libinjection | libdetection |
-
+| type | yanshi  | libinjection | libdetection |
 |------|---------|--------------|--------------|
-
 | sqli | 249727  | 84530        | 242130       |
 
 # Yanshi sqli speed test code
