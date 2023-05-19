@@ -1,7 +1,4 @@
 # yanshi VS libinjection VS libdetection
-| type | yanshi  | libinjection | libdetection |
-|------|---------|--------------|--------------|
-| sqli | 249727  | 84530        | 242130       |
 
 <table>
   <tbody>
