@@ -16,8 +16,25 @@ categories: match
 	https://github.com/chaitin/yanshi
 
 	http://maskray.me/blog/2016-06-11-yanshi-automaton-generator
+# 环境配置
+## ubuntu 20
+	```
+	apt install libicu-dev flex libreadline-dev
+	```
+
+## centos
+	```
+	yum install bison
+	yum install libicu-devel
+	yum install flex
+	yum install readline-devel
+	yum install libasan
+	yum install libubsan
+	```
+	编译要注意升级gcc到8.1 ，源码安装icu66.1以上版本
 
 # 如何使用？
+
 	详细的使用可以直接参考github内容，这里只描述与片断语法检测相关的一个例子：
 
 	以检测1' or '1'='1' 为例构造语法文件如下：
@@ -159,6 +176,9 @@ g++ a.cc -o a -O2 -std=c++11
 ![yanshi](/assets/yanshi.png)
 
 ToDO：需要在end action中增加各关键字的权重，最后通过判断最终状态是否为true并计算权重值来判断是否sqli
+
+
+
 
 
 
