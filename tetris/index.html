@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tetris</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <h1 class="title">Tetris</h1>
+      <div class="buttons">
+        <button id="btnPause" type="button">Pause</button>
+        <button id="btnRestart" type="button">Restart</button>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="panel">
+        <div class="card">
+          <div class="cardTitle">Hold</div>
+          <canvas id="hold" width="120" height="120" aria-label="Hold piece"></canvas>
+          <div class="hint">C / Shift</div>
+        </div>
+
+        <div class="card stats">
+          <div class="row"><span>Score</span><span id="score">0</span></div>
+          <div class="row"><span>Level</span><span id="level">1</span></div>
+          <div class="row"><span>Lines</span><span id="lines">0</span></div>
+        </div>
+
+        <div class="card">
+          <div class="cardTitle">Next</div>
+          <canvas id="next" width="120" height="360" aria-label="Next pieces"></canvas>
+          <div class="hint">Queue: 5</div>
+        </div>
+      </section>
+
+      <section class="boardWrap">
+        <canvas id="board" width="300" height="600" aria-label="Tetris board"></canvas>
+        <div id="overlay" class="overlay hidden" role="status" aria-live="polite">
+          <div class="overlayBox">
+            <div id="overlayTitle" class="overlayTitle">Paused</div>
+            <div id="overlayText" class="overlayText">Press P to resume</div>
+            <button id="overlayBtn" type="button">Resume</button>
+          </div>
+        </div>
+        <div class="controls card">
+          <div class="cardTitle">Controls</div>
+          <ul>
+            <li>←/→: move</li>
+            <li>↓: soft drop</li>
+            <li>Space: hard drop</li>
+            <li>↑ or X: rotate ⟳</li>
+            <li>Z: rotate ⟲</li>
+            <li>C or Shift: hold</li>
+            <li>P: pause</li>
+            <li>R: restart</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Offline: open <code>index.html</code> directly.</span>
+    </footer>
+  </div>
+
+  <script src="tetris.js"></script>
+</body>
+</html>
