@@ -4,4 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hi, I’m **Victor** — a **Software Engineer**.
+
+This site is my little corner for:
+- write-ups on systems/security/infra things I’m learning
+- small projects and experiments (like the Tetris page)
+- occasional updates when I change/improve the site
+
+If there’s something you want to discuss or collaborate on, feel free to reach me at [{{ site.email }}](mailto:{{ site.email }}).

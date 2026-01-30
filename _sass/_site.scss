@@ -15,8 +15,8 @@
             text-decoration: none;
             color: $text-color-white;
             font-size: $big-font-size;
-            font-weight: bold;
-            text-transform: uppercase;
+            font-weight: 800;
+            letter-spacing: 0.02em;
         }
     }
     
@@ -73,9 +73,12 @@
             color: $brand-color;
         }
 
-        p.description{            
+        p.description{
             font-size: 2rem;
-            text-align: left;
+            text-align: center;
+            max-width: 36em;
+            margin: 0.75em auto 0;
+            opacity: 0.95;
         }
     }
     
